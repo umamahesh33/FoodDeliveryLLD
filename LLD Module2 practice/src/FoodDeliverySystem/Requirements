@@ -1,0 +1,20 @@
+REQUIREMENTS I THOUGHT FOR FOOD DELIVERY SYSTEM
+1. order placing (adding and selecting address, payment method)
+2. adding food to cart
+3. filtering food by veg and non veg and vegan
+4. filtering food via break fast, lunch, dinner tags
+5. search for a dish
+6. search for a restaurant
+7. history of orders
+
+REQUIREMENTS MENTIONED IN THE CLASS WAS VERY SIMILAR BUT REFER TO CLASS FOR ORIGINAL DOC
+
+DESIGNING HIGH LEVEL APIS( While designing the high level apis think of their input and output as well )
+1. foodItemSearcherApi ( foodItemName, foodItemFilters ) should return a List<FoodItem>
+2. restaurantSearcherApi ( restaurant name, foodItemFilters ) should return a list of restaurant
+3. GetRestaurantById fetches the restaurant and its menu by its id
+4. GetFoodItemById fetches the food item by id
+5. Add to cart api ( user token, food item id ) and return void
+6. place order api (token, payment type, and payment details ) and should return the Order object
+7. update order api (  different types of token and their update status , update status should be done based on authentication) should return void
+
